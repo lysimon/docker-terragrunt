@@ -1,5 +1,5 @@
 FROM hashicorp/terraform:latest
-RUN apk add --no-cache bash jq
+RUN apk add --no-cache bash jq grep
 RUN apk -v --update add \
         python \
         py-pip \
